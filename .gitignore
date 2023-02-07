@@ -10,6 +10,7 @@
 
 # production
 /build
+Image/
 
 # misc
 .DS_Store

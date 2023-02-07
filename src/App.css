@@ -47,6 +47,8 @@ section {
 
 .skill-item {
   margin: 1rem;
+  border-top: dotted 1px gray;
+  justify-content: center;
 }
 
 nav ul {

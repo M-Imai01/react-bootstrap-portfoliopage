@@ -3,6 +3,10 @@ import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
 import profileImage from "../Images/sibainu.jpg";
+import DesignImage from "../Images/Design.svg";
+import CodingImage from "../Images/Coding.svg";
+import OtherImage from "../Images/Other.svg";
+
 
 const HomePage = () => {
   return (
@@ -22,10 +26,12 @@ const HomePage = () => {
       <h1 class="title">スキル</h1>
       <div class="d-flex flex-row">
 
-        <div className="skillbox"><h3>-Design-</h3>
+        <div className="skillbox">
+          <h3>-Design-</h3>
+            <img src={DesignImage} className="skill-thema" />
           <div class="d-flex flex-column skill-item">
             <div class="services d-flex flex-row">
-              <img src={reactImage} className="img-style" />
+                <img src={reactImage} className="skill-img" />
               <span class="d-flex flex-column">
                 <h5>React</h5>
                 <p>Reactがつかえます</p>
@@ -34,7 +40,7 @@ const HomePage = () => {
           </div>
           <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={jsImage} className="img-style" />
+            <img src={jsImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>HTML/CSS</h5>
               <p>HTML/CSSがつかえます</p>
@@ -43,7 +49,7 @@ const HomePage = () => {
           </div>
           <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={firebaseImage} className="img-style" />
+            <img src={firebaseImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>Firebase</h5>
               <p>Firebaseがつかえます</p>
@@ -52,10 +58,12 @@ const HomePage = () => {
           </div>
         </div>
 
-      <div className="skillbox"><h3>-Coding-</h3>
+      <div className="skillbox">
+        <h3>-Coding-</h3>
+            <img src={CodingImage} className="skill-thema" />
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={reactImage} className="img-style" />
+            <img src={reactImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>React</h5>
               <p>Reactがつかえます</p>
@@ -64,7 +72,7 @@ const HomePage = () => {
         </div>
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={jsImage} className="img-style" />
+            <img src={jsImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>HTML/CSS</h5>
               <p>HTML/CSSがつかえます</p>
@@ -73,7 +81,7 @@ const HomePage = () => {
         </div>
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={firebaseImage} className="img-style" />
+            <img src={firebaseImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>Firebase</h5>
               <p>Firebaseがつかえます</p>
@@ -82,10 +90,12 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="skillbox"><h3>-Other-</h3>
+      <div className="skillbox">
+        <h3>-Other-</h3>
+            <img src={OtherImage} className="skill-thema" />
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={reactImage} className="img-style" />
+            <img src={reactImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>React</h5>
               <p>Reactがつかえます</p>
@@ -94,7 +104,7 @@ const HomePage = () => {
         </div>
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={jsImage} className="img-style" />
+            <img src={jsImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>HTML/CSS</h5>
               <p>HTML/CSSがつかえます</p>
@@ -103,7 +113,7 @@ const HomePage = () => {
         </div>
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={firebaseImage} className="img-style" />
+            <img src={firebaseImage} className="skill-img" />
             <span class="d-flex flex-column">
               <h5>Firebase</h5>
               <p>Firebaseがつかえます</p>

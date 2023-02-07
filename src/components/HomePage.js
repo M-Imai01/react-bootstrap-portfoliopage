@@ -10,6 +10,9 @@ import photoshopImage from "../Images/photoshop.svg";
 import illustratorImage from "../Images/illustrator.svg";
 import xdImage from "../Images/xd.svg";
 import PremiereProImage from "../Images/PremierePro.svg";
+import htmlcssImage from "../Images/htmlcss.svg";
+import JavascriptReactImage from "../Images/JavascriptReact.svg";
+import RubyRailsImage from "../Images/RubyRails.svg";
 
 
 
@@ -79,29 +82,29 @@ const HomePage = () => {
             <img src={CodingImage} className="skill-thema" />
         </span>
         <div class="d-flex flex-column skill-item">
+          <div class="services d-flex flex-row">
+                <img src={htmlcssImage} className="skill-img_union" />
+            <span class="d-flex flex-column">
+              <h5>HTML5/CSS3</h5>
+              <p>Bootstrap5を使用したレスポンシブページが作成可能</p>
+            </span>
+          </div>
+        </div>
+        <div class="d-flex flex-column skill-item">
               <div class="services d-flex flex-row">
-            <img src={reactImage} className="skill-img" />
+                <img src={JavascriptReactImage} className="skill-img_union" />
                 <span class="d-flex flex-column">
-              <h5>React</h5>
-              <p>Reactがつかえます</p>
+              <h5>Javascript/React</h5>
+              <p>jQurryなどの導入可能</p>
             </span>
           </div>
         </div>
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
-            <img src={jsImage} className="skill-img" />
+                <img src={RubyRailsImage} className="skill-img_union" />
             <span class="d-flex flex-column">
-              <h5>HTML/CSS</h5>
-              <p>HTML/CSSがつかえます</p>
-            </span>
-          </div>
-        </div>
-        <div class="d-flex flex-column skill-item">
-          <div class="services d-flex flex-row">
-            <img src={firebaseImage} className="skill-img" />
-            <span class="d-flex flex-column">
-              <h5>Firebase</h5>
-              <p>Firebaseがつかえます</p>
+              <h5>Ruby/Ruby on Rails</h5>
+              <p>簡単なWebアプリケーションの作成可能</p>
             </span>
           </div>
         </div>

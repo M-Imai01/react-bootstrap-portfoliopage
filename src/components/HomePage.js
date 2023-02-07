@@ -19,27 +19,45 @@ const HomePage = () => {
       <p>2021年6月よりWebデザインの職業訓練校にてデザインやフロントエンドコーディングを学び、Web業界へ挑戦中。</p>
 
       <section id="skill">
-        <div class="text-center">
-          <h1 class="title">スキル</h1>
-          <div class="row text-center">
-            <div class="col-md-4 services">
-              <img src={reactImage} />
-              <h4>React</h4>
-              <p>Reactがつかえます</p>
-            </div>
-            <div class="col-md-4 services">
-              <img src={jsImage} />
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
-            </div>
-            <div class="col-md-4 services">
-              <img src={firebaseImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+        <h1 class="title">スキル</h1>
+        <div class="d-flex flex-row">
+
+        <div className="skillbox"><h3>-Design-</h3>
+
+          <div class="d-flex flex-column skill-item">
+            <div class="services d-flex flex-row">
+              <img src={reactImage} className="img-style" />
+              <span class="d-flex flex-column">
+                <h5>React</h5>
+                <p>Reactがつかえます</p>
+              </span>
             </div>
           </div>
+
+          <div class="d-flex flex-column skill-item">
+          <div class="services d-flex flex-row">
+            <img src={jsImage} className="img-style" />
+            <span class="d-flex flex-column">
+              <h5>HTML/CSS</h5>
+              <p>HTML/CSSがつかえます</p>
+            </span>
+          </div>
+          </div>
+
+          <div class="d-flex flex-column skill-item">
+          <div class="services d-flex flex-row">
+            <img src={firebaseImage} className="img-style" />
+            <span class="d-flex flex-column">
+              <h5>Firebase</h5>
+              <p>Firebaseがつかえます</p>
+            </span>
+          </div>
+          </div>
+        </div>
+
         </div>
       </section>
+
     </div>
 
   )

@@ -122,17 +122,14 @@ nav ul li a:hover {
 
 .skill-img {
   object-fit: cover;
-  margin-bottom: 12px;
-  /* margin-top: 2rem; */
   height: 50px;
   width: 50px;
   border-radius: 10%;
 }
 .skill-img_union {
   object-fit: contain;
-  margin-bottom: 12px;
-  /* margin-top: 2rem; */
   height: 50px;
   width: 50px;
   border-radius: 10%;
+  border: solid 0.5px grey;
 }

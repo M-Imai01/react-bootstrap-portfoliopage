@@ -18,3 +18,14 @@
   justify-content: space-evenly;
   padding: 1rem;
 }
+
+.works-img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  /* border-radius: 10%; */
+}
+
+.btn-light {
+  border: 0.2px solid gainsboro;
+}

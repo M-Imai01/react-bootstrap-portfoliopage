@@ -7,7 +7,7 @@
   border-right: 1px solid white;
 }
 .tab-content {
-  background-color: #f9fafb;
+  background-color: oldlace;
   border: 1px solid #dddddd;
 }
 .col-sm {
@@ -28,4 +28,8 @@
 
 .btn-light {
   border: 0.2px solid gainsboro;
+}
+
+p {
+  text-align: left;
 }

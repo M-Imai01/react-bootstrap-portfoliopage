@@ -203,10 +203,10 @@ const BsTabs = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
                   </p>
                   <span>
-                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/react-bootstrap-portfoliopage" role="button" target="_blank" rel="noopener noreferrer">
+                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/okui_samplePage" role="button" target="_blank" rel="noopener noreferrer">
                       <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
                     </a>
-                    <a class="btn btn-info fw-bold" href="https://github.com/M-Imai01/react-bootstrap-portfoliopage" role="button" target="_blank" rel="noopener noreferrer">
+                    <a class="btn btn-info fw-bold" href="https://okui-app.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">
                       Go to Website
                     </a>
                   </span>
@@ -215,7 +215,28 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><img src={photo2Image} className="img-fluid" alt="" /></Col>
+            <Col sm><a href="#modal-09"><img src={photo2Image} className="img-fluid" alt="" /></a></Col>
+
+            <div class="modal-wrapper" id="modal-09">
+              <a href="#!" class="modal-overlay"></a>
+              <div class="modal-window">
+                <div class="modal-content">
+                  <h4>Modal window</h4>
+                  <img src={photo1Image} className="img-fluid" alt="" />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
+                  </p>
+                  <span>
+                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/Flask_App" role="button" target="_blank" rel="noopener noreferrer">
+                      <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
+                    </a>
+                  </span>
+                </div>
+                <a href="#!" class="modal-close">×</a>
+              </div>
+            </div>
+
+
             <Col sm><img src={photo3Image} className="img-fluid" alt="" /></Col>
           </Row>
           <Row>

@@ -1,8 +1,8 @@
 import React from 'react'
 import profileImage from "../Images/sibainu.jpg";
-import DesignImage from "../Images/Design.svg";
-import CodingImage from "../Images/Coding.svg";
-import OtherImage from "../Images/Other.svg";
+import DesignImage from "../Images/Design.png";
+import CodingImage from "../Images/Coding.png";
+import OtherImage from "../Images/Other.png";
 import photoshopImage from "../Images/photoshop.svg";
 import illustratorImage from "../Images/illustrator.svg";
 import xdImage from "../Images/xd.svg";
@@ -43,7 +43,7 @@ const HomePage = () => {
             <div class="services d-flex flex-row">
                 <img src={photoshopImage} className="skill-img" />
               <span class="d-flex flex-column">
-                <h5>Photoshop</h5>
+                  <h5 className='skill-name'>Photoshop</h5>
                 <p>写真のトリミング、色彩調整など基本操作可能</p>
               </span>
             </div>
@@ -52,7 +52,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={illustratorImage} className="skill-img" />
             <span class="d-flex flex-column">
-                  <h5>illustrator</h5>
+                  <h5 className='skill-name'>illustrator</h5>
               <p>ペンツール・ベジェ曲線の作成や、基本操作可能</p>
             </span>
           </div>
@@ -61,7 +61,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={xdImage} className="skill-img" />
             <span class="d-flex flex-column">
-              <h5>XD</h5>
+              <h5 className='skill-name'>XD</h5>
               <p>サイトのトップページデザインカンプ作成可能</p>
             </span>
           </div>
@@ -70,7 +70,7 @@ const HomePage = () => {
               <div class="services d-flex flex-row">
                 <img src={PremiereProImage} className="skill-img" />
                 <span class="d-flex flex-column">
-                  <h5>Premiere Pro</h5>
+                  <h5 className='skill-name'>Premiere Pro</h5>
                   <p>動画の切り貼り、テロップの挿入など5~7分ほどの動画編集可能</p>
                 </span>
               </div>
@@ -86,7 +86,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={htmlcssImage} className="skill-img_union" />
             <span class="d-flex flex-column">
-              <h5>HTML5/CSS3</h5>
+              <h5 className='skill-name'>HTML5/CSS3</h5>
               <p>Bootstrap5を使用したレスポンシブページが作成可能</p>
             </span>
           </div>
@@ -95,7 +95,7 @@ const HomePage = () => {
               <div class="services d-flex flex-row">
                 <img src={JavascriptReactImage} className="skill-img_union" />
                 <span class="d-flex flex-column">
-              <h5>Javascript/React</h5>
+              <h5 className='skill-name'>Javascript/React</h5>
               <p>jQurryなどの導入可能</p>
             </span>
           </div>
@@ -104,7 +104,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={RubyRailsImage} className="skill-img_union" />
             <span class="d-flex flex-column">
-              <h5>Ruby/Ruby on Rails</h5>
+              <h5 className='skill-name'>Ruby/Ruby on Rails</h5>
               <p>簡単なWebアプリケーションの作成可能</p>
             </span>
           </div>
@@ -120,7 +120,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={gitGithubImage} className="skill-img_union" />
             <span class="d-flex flex-column">
-              <h5>Git/Github</h5>
+              <h5 className='skill-name'>Git/Github</h5>
                   <p>実務では、Windows用GUIクライアントツール「TortoiseGit」でバージョン管理を行なっていました</p>
             </span>
           </div>
@@ -129,7 +129,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={dockerImage} className="skill-img_union" />
             <span class="d-flex flex-column">
-              <h5>Docker</h5>
+              <h5 className='skill-name'>Docker</h5>
               <p>個人学習でRailsのWebアプリケーション作成時に環境構築をしました。</p>
             </span>
           </div>
@@ -138,7 +138,7 @@ const HomePage = () => {
               <div class="services d-flex flex-row">
                 <img src={awsImage} className="skill-img_union" />
                 <span class="d-flex flex-column">
-                  <h5>AWS</h5>
+                  <h5 className='skill-name'>AWS</h5>
                   <p>個人学習でのRalisWebアプリケーション作成時に、Amazon EC2で環境構築をしました。</p>
                 </span>
               </div>
@@ -147,7 +147,7 @@ const HomePage = () => {
           <div class="services d-flex flex-row">
                 <img src={herokuImage} className="skill-img_union" />
             <span class="d-flex flex-column">
-              <h5>Heroku</h5>
+              <h5 className='skill-name'>Heroku</h5>
               <p>個人学習でWebアプリケーションを作成した際のデプロイで使用しました。</p>
             </span>
           </div>

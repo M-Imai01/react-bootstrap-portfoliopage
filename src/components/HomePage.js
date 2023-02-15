@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImage from "../Images/sibainu.jpg";
+import profileImage from "../Images/profileimage.jpg";
 import DesignImage from "../Images/Design.png";
 import CodingImage from "../Images/Coding.png";
 import OtherImage from "../Images/Other.png";
@@ -22,7 +22,7 @@ const HomePage = () => {
 
     <div className="container text-center">
       <p>Imai Mitsuaki</p>
-      <h1>今井　光明</h1>
+      <h1 className='myname'>今井 光明</h1>
 
       <img src={profileImage} className="profileImage" />
 
@@ -79,9 +79,7 @@ const HomePage = () => {
 
       <div className="skillbox col-4">
         <h3>-Coding-</h3>
-        <span className="skill_thema-box">
-            <img src={CodingImage} className="skill-thema" />
-        </span>
+              <img src={CodingImage} className="skill-thema" />
         <div class="d-flex flex-column skill-item">
           <div class="services d-flex flex-row">
                 <img src={htmlcssImage} className="skill-img_union" />

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-// import "./Contact.css";
+import "./Contact.css";
 
 
 export function Contact() {
@@ -19,7 +19,8 @@ export function Contact() {
 
 return (
   <div>
-    <div className="container">
+    <div className="container container-box">
+      <h1>お問い合わせ</h1>
       <form onSubmit={sendEmail}>
         <div className="row pt-5 mx-auto">
           <div className="col-8 form-group mx-auto">

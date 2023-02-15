@@ -23,6 +23,13 @@ import Design05Image from "../Images/Design05.png";
 import Design06Image from "../Images/Design06.png";
 import Design07Image from "../Images/Design07.png";
 
+import Develop01Image from "../Images/Develop01.png";
+import Develop001Image from "../Images/Develop001.png";
+import Develop02Image from "../Images/Develop02.png";
+import Develop002Image from "../Images/Develop002.png";
+
+
+
 
 
 
@@ -39,7 +46,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>病院のチラシ制作</h4>
                   <img src={Design01Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約1時間<br />
                     知人の診療所で「コロナ禍で事前連絡もなしにいきなり来院される方がいて困っているので、ポスターを作ってほしい」との依頼を受け作成しました。<br />
@@ -59,7 +66,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>薬局のチラシ制作①</h4>
                   <img src={Design02Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約3時間<br />
                     ・イベントの告知をするためにお客様に配布するチラシの制作<br />
@@ -80,7 +87,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>薬局のチラシ制作②</h4>
                   <img src={Design03Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約2.5時間<br />
                     ・薬局チラシ制作①の1年後に再度イベントを開催することになった際のチラシ作成です。<br />
@@ -105,7 +112,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>ロゴの制作①</h4>
                   <img src={Design04Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約1.5時間<br />
                     職業訓練校で企業のロゴ制作課題があり、父親が勤める会社のロゴを制作してみました。<br />
@@ -125,7 +132,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>ロゴの制作②</h4>
                   <img src={Design05Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約2.5時間<br />
                     作成したロゴを使用し、会社の名刺・パンフレットのデザインを作りました。<br />
@@ -145,7 +152,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>ロゴの制作③</h4>
                   <img src={Design06Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約1.5時間<br />
                     会社パンフレットの内容を元に、LPの案を考えました。<br />
@@ -162,7 +169,7 @@ const BsTabs = () => {
 
 {/* ３列目 */}
           <Row>
-            <Col sm><a href="#modal-07"><img src={Design07Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
+            <Col sm={4}><a href="#modal-07"><img src={Design07Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
 
             <div class="modal-wrapper" id="modal-07">
               <a href="#!" class="modal-overlay"></a>
@@ -170,7 +177,7 @@ const BsTabs = () => {
                 <div class="modal-content">
                   <h4>Tシャツ制作課題/タイトル:I♥Design</h4>
                   <img src={Design07Image} className="img-fluid" alt="" />
-                  <p>
+                  <p className="description">
                     【概要】<br />
                     制作時間:約3時間<br />
                     職業訓練校でのTシャツのデザイン制作課題にて、Webデザインを学び始めてから感じ始めていた、デザインする事の楽しさを表現しようと思いました。<br />
@@ -191,15 +198,15 @@ const BsTabs = () => {
 {/* タブ２ */}
         <Tab eventKey="tab-2" title="Dev">
           <Row>
-            <Col sm><a href="#modal-08"><img src={photo1Image} className="img-fluid" alt="" /></a></Col>
+            <Col sm><a href="#modal-08"><img src={Develop01Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
 
             <div class="modal-wrapper" id="modal-08">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
-                  <h4>Modal window</h4>
-                  <img src={photo1Image} className="img-fluid" alt="" />
-                  <p>
+                  <h4>職業訓練校/サイト制作</h4>
+                  <img src={Develop001Image} className="img-fluid" alt="" />
+                  <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
                   </p>
                   <span>
@@ -215,15 +222,14 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><a href="#modal-09"><img src={photo2Image} className="img-fluid" alt="" /></a></Col>
-
+            <Col sm><a href="#modal-09"><img src={Develop02Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
             <div class="modal-wrapper" id="modal-09">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
-                  <h4>Modal window</h4>
-                  <img src={photo1Image} className="img-fluid" alt="" />
-                  <p>
+                  <h4>Python/flaskを使用したWebアプリ</h4>
+                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
                   </p>
                   <span>
@@ -237,14 +243,80 @@ const BsTabs = () => {
             </div>
 
 
-            <Col sm><img src={photo3Image} className="img-fluid" alt="" /></Col>
+            <Col sm><a href="#modal-10"><img src={photo3Image} className="img-fluid" alt="" /></a></Col>
+
+            <div class="modal-wrapper" id="modal-10">
+              <a href="#!" class="modal-overlay"></a>
+              <div class="modal-window">
+                <div class="modal-content">
+                  <h4>このポートフォリオページ</h4>
+                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <p className="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
+                  </p>
+                  <span>
+                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/Flask_App" role="button" target="_blank" rel="noopener noreferrer">
+                      <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
+                    </a>
+                  </span>
+                </div>
+                <a href="#!" class="modal-close">×</a>
+              </div>
+            </div>
+
           </Row>
-          <Row>
-            <Col sm><img src={photo4Image} className="img-fluid" alt="" /></Col>
-          </Row>
+
         </Tab>
+
+        {/* tab3 */}
         <Tab eventKey="tab-3" title="other">
-          Tab 3 content..
+          <Row>
+
+            <Col sm><a href="#modal-11"><img src={photo4Image} className="img-fluid" alt="" /></a></Col>
+
+            <div class="modal-wrapper" id="modal-11">
+              <a href="#!" class="modal-overlay"></a>
+              <div class="modal-window">
+                <div class="modal-content">
+                  <h4>このポートフォリオページ</h4>
+                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <p className="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
+                  </p>
+                  <span>
+                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/Flask_App" role="button" target="_blank" rel="noopener noreferrer">
+                      <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
+                    </a>
+                  </span>
+                </div>
+                <a href="#!" class="modal-close">×</a>
+              </div>
+            </div>
+
+
+            <Col sm><a href="#modal-12"><img src={photo4Image} className="img-fluid" alt="" /></a></Col>
+
+            <div class="modal-wrapper" id="modal-12">
+              <a href="#!" class="modal-overlay"></a>
+              <div class="modal-window">
+                <div class="modal-content">
+                  <h4>このポートフォリオページ</h4>
+                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <p className="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
+                  </p>
+                  <span>
+                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/Flask_App" role="button" target="_blank" rel="noopener noreferrer">
+                      <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
+                    </a>
+                  </span>
+                </div>
+                <a href="#!" class="modal-close">×</a>
+              </div>
+            </div>
+
+          </Row>
+
         </Tab>
       </Tabs>
     </Container>

@@ -41,15 +41,19 @@ section {
   margin-top: 5rem;
 }
 
-.skill_thema-box {
+/* .skill_thema-box {
   background-color: red;
   display: inline-block;
   padding: 35px;
-}
+} */
 
 .skillbox {
   border-radius: 1.5%;
   border: solid 2px #1d1d1d;
+}
+
+.skill-name {
+  font-weight: bold;
 }
 
 .services {
@@ -122,17 +126,14 @@ nav ul li a:hover {
 
 .skill-img {
   object-fit: cover;
-  margin-bottom: 12px;
-  /* margin-top: 2rem; */
   height: 50px;
   width: 50px;
   border-radius: 10%;
 }
 .skill-img_union {
   object-fit: contain;
-  margin-bottom: 12px;
-  /* margin-top: 2rem; */
   height: 50px;
   width: 50px;
   border-radius: 10%;
+  border: solid 0.5px grey;
 }

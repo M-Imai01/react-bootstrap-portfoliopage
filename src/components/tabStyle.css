@@ -7,7 +7,7 @@
   border-right: 1px solid white;
 }
 .tab-content {
-  background-color: #f9fafb;
+  background-color: oldlace;
   border: 1px solid #dddddd;
 }
 .col-sm {
@@ -17,4 +17,19 @@
   /* padding: 0; */
   justify-content: space-evenly;
   padding: 1rem;
+}
+
+.works-img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  /* border-radius: 10%; */
+}
+
+.btn-light {
+  border: 0.2px solid gainsboro;
+}
+
+p {
+  text-align: left;
 }

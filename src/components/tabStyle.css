@@ -30,6 +30,7 @@
   border: 0.2px solid gainsboro;
 }
 
-p {
+.description {
   text-align: left;
+  padding-top: 1rem;
 }

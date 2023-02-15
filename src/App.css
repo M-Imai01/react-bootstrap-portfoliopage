@@ -20,7 +20,8 @@ header {
   align-items: center;
   width: 100%;
   max-width: 100%;
-  background: black;
+  /* background: black; */
+  background: yellowgreen;
   color: white;
   height: 90px;
   /* position: fixed;
@@ -71,9 +72,9 @@ section {
 }
 
 .skill-item {
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
   border-top: dotted 1px gray;
-  justify-content: center;
+  /* justify-content: center; */
   box-sizing: borderーbox;
 }
 
@@ -104,13 +105,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: orange;
+  color: olivedrab;
 }
 
-.container {
+/* .container {
   height: 100vh;
   padding: 120px;
-}
+} */
 
 .container h1 {
   text-align: center;
@@ -138,6 +139,7 @@ nav ul li a:hover {
 }
 .skill-img_union {
   object-fit: contain;
+  /* object-fit: cover; */
   height: 50px;
   width: 50px;
   border-radius: 10%;

@@ -90,7 +90,7 @@ const HomePage = () => {
             <img src={CodingImage} className="skill-thema" />
 
             <Container className="skill-item">
-              <Row>
+              <Row className='d-flex justify-content-evenly align-items-center'>
                 <Col><img src={htmlcssImage} className="skill-img_union" /></Col>
                 <Col className="d-flex flex-column text-wrap">
                   <h5 className='skill-name'>HTML5/CSS3</h5>
@@ -99,25 +99,25 @@ const HomePage = () => {
               </Row>
             </Container>
 
-            <div class="d-flex flex-column skill-item">
-              <div class="services d-flex flex-row">
-                <img src={JavascriptReactImage} className="skill-img_union" />
-                <span class="d-flex flex-column">
+            <Container className="skill-item">
+              <Row className='d-flex justify-content-evenry align-items-center'>
+                <Col><img src={JavascriptReactImage} className="skill-img_union" /></Col>
+                <Col className="d-flex flex-column text-wrap">
                   <h5 className='skill-name'>Javascript/React</h5>
-                  <p>jQurryなどの導入可能</p>
-                </span>
-              </div>
-            </div>
+                  <p>React-Bootstrapライブラリや、jQurryのプラグインが導入可能</p>
+                </Col>
+              </Row>
+            </Container>
 
-            <div class="d-flex flex-column skill-item">
-              <div class="services d-flex flex-row">
-                <img src={RubyRailsImage} className="skill-img_union" />
-                <span class="d-flex flex-column">
+            <Container className="skill-item">
+              <Row className='d-flex justify-content-evenry align-items-center'>
+                <Col><img src={RubyRailsImage} className="skill-img_union" /></Col>
+                <Col className="d-flex flex-column text-wrap">
                   <h5 className='skill-name'>Ruby/Ruby on Rails</h5>
                   <p>簡単なWebアプリケーションの作成可能</p>
-                </span>
-              </div>
-            </div>
+                </Col>
+              </Row>
+            </Container>
 
           </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Tabs, Tab } from 'react-bootstrap';
+import Figure from 'react-bootstrap/Figure';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './tabStyle.css';
 import './modal_window.css';
@@ -27,9 +28,13 @@ import Develop01Image from "../Images/Develop01.png";
 import Develop001Image from "../Images/Develop001.png";
 import Develop02Image from "../Images/Develop02.png";
 import Develop002Image from "../Images/Develop002.png";
+import Develop03Image from "../Images/Develop03.png";
+import Develop003Image from "../Images/Develop003.png";
 
-
-
+import Other01Image from "../Images/Other01.png";
+import Other001Image from "../Images/Other001.png";
+import Other02Image from "../Images/Other02.png";
+import Other002Image from "../Images/Other002.png";
 
 
 
@@ -39,7 +44,12 @@ const BsTabs = () => {
       <Tabs justify variant="pills" defaultActiveKey="tab-1" >
         <Tab eventKey="tab-1" title="Design">
           <Row>
-            <Col sm><a href="#modal-01"><img src={Design01Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
+            <Col sm>
+              <Figure>
+                <a href="#modal-01"><Figure.Image src={Design01Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>病院のチラシ制作</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-01">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -59,7 +69,12 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><a href="#modal-02"><img src={Design02Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
+            <Col sm>
+              <Figure>
+                <a href="#modal-02"><Figure.Image src={Design02Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>薬局のチラシ制作①</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-02">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -80,7 +95,12 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><a href="#modal-03"><img src={Design03Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
+            <Col sm>
+              <Figure>
+                <a href="#modal-03"><Figure.Image src={Design03Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>薬局のチラシ制作②</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-03">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -104,8 +124,12 @@ const BsTabs = () => {
 
           {/* ２列目 */}
           <Row>
-            <Col sm><a href="#modal-04"><img src={Design04Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-04"><Figure.Image src={Design04Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>ロゴの制作①</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-04">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -124,8 +148,12 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><a href="#modal-05"><img src={Design05Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-05"><Figure.Image src={Design05Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>ロゴの制作②</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-05">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -144,8 +172,12 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><a href="#modal-06"><img src={Design06Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-06"><Figure.Image src={Design06Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>ロゴの制作③</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-06">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -164,13 +196,16 @@ const BsTabs = () => {
                 <a href="#!" class="modal-close">×</a>
               </div>
             </div>
-
           </Row>
 
-{/* ３列目 */}
+          {/* ３列目 */}
           <Row>
-            <Col sm={4}><a href="#modal-07"><img src={Design07Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
-
+            <Col sm={4} className="col_3">
+              <Figure>
+                <a href="#modal-07"><Figure.Image src={Design07Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>Tシャツ制作課題/タイトル:I♥Design</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-07">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -195,11 +230,15 @@ const BsTabs = () => {
 
         </Tab>
 
-{/* タブ２ */}
+        {/* タブ２ */}
         <Tab eventKey="tab-2" title="Dev">
           <Row>
-            <Col sm><a href="#modal-08"><img src={Develop01Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-08"><Figure.Image src={Develop01Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>職業訓練校/サイト制作</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-08">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -222,7 +261,12 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm><a href="#modal-09"><img src={Develop02Image} className="img-fluid img-thumbnail" alt="" /></a></Col>
+            <Col sm>
+              <Figure>
+                <a href="#modal-09"><Figure.Image src={Develop02Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>Python/flaskを使用したWebアプリ</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-09">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
@@ -242,15 +286,18 @@ const BsTabs = () => {
               </div>
             </div>
 
-
-            <Col sm><a href="#modal-10"><img src={photo3Image} className="img-fluid" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-10"><Figure.Image src={Develop03Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>このポートフォリオページ</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-10">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
                   <h4>このポートフォリオページ</h4>
-                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <img src={Develop003Image} className="img-fluid" alt="" />
                   <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
                   </p>
@@ -271,21 +318,24 @@ const BsTabs = () => {
         {/* tab3 */}
         <Tab eventKey="tab-3" title="other">
           <Row>
-
-            <Col sm><a href="#modal-11"><img src={photo4Image} className="img-fluid" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-11"><img src={Other01Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>前職での動画制作①</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-11">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
-                  <h4>このポートフォリオページ</h4>
-                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <h4>前職での動画制作①</h4>
+                  <img src={Other001Image} className="img-fluid" alt="" />
                   <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
                   </p>
                   <span>
-                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/Flask_App" role="button" target="_blank" rel="noopener noreferrer">
-                      <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
+                    <a class="btn btn-info fw-bold" href="https://okui-app.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">
+                      Go to Website
                     </a>
                   </span>
                 </div>
@@ -293,21 +343,24 @@ const BsTabs = () => {
               </div>
             </div>
 
-
-            <Col sm><a href="#modal-12"><img src={photo4Image} className="img-fluid" alt="" /></a></Col>
-
+            <Col sm>
+              <Figure>
+                <a href="#modal-12"><img src={Other02Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption>前職での動画制作②</Figure.Caption>
+              </Figure>
+            </Col>
             <div class="modal-wrapper" id="modal-12">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
-                  <h4>このポートフォリオページ</h4>
-                  <img src={Develop002Image} className="img-fluid" alt="" />
+                  <h4>前職での動画制作②</h4>
+                  <img src={Other002Image} className="img-fluid" alt="" />
                   <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut cursus felis. Etiam hendrerit turpis at massa auctor semper.
                   </p>
                   <span>
-                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/Flask_App" role="button" target="_blank" rel="noopener noreferrer">
-                      <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
+                    <a class="btn btn-info fw-bold" href="https://okui-app.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">
+                      Go to Website
                     </a>
                   </span>
                 </div>
@@ -319,7 +372,7 @@ const BsTabs = () => {
 
         </Tab>
       </Tabs>
-    </Container>
+    </Container >
   );
 };
 

@@ -21,9 +21,7 @@
 
 .works-img {
   object-fit: contain;
-  height: 50px;
-  width: 50px;
-  /* border-radius: 10%; */
+  width: 25px;
 }
 
 .btn-light {
@@ -33,4 +31,8 @@
 .description {
   text-align: left;
   padding-top: 1rem;
+}
+
+.col_3 {
+  padding-left: 1rem;
 }

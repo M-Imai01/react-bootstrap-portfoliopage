@@ -1,3 +1,7 @@
+.wrap {
+  padding: 1rem;
+}
+
 
 :root {
   --black-color: #010000;
@@ -7,11 +11,9 @@
 
 .App {
   font-size: 16px;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   max-width: 100%;
-  /* font-weight: 400; */
-  /* font-style: normal; */
 }
 
 header {
@@ -47,24 +49,38 @@ section {
   padding-bottom: 1rem;
 }
 
+.strong-color {
+  color: salmon;
+}
+
+/* .profile-box {
+  width: 800px;
+} */
+
 /* .skill_thema-box {
   background-color: red;
   display: inline-block;
   padding: 35px;
 } */
 
-
 .skillbox {
-  border-radius: 1.5%;
+  /* border-radius: 1.5%; */
   border: solid 1px #1d1d1d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: cornsilk;
+}
+
+.skill_name-top {
+  /* display: inline-block; */
+  /* text-align: center; */
+  padding-left: 0;
+  padding-bottom: 1rem;
+  /* justify-content: space-evenly; */
 }
 
 .skill-name {
   font-weight: bold;
-}
-
-.services {
-  align-items: center;
 }
 
 #skill {
@@ -72,18 +88,28 @@ section {
 }
 
 .skill-item {
-  /* margin: 1rem 0; */
+  /* margin: 0 1rem; */
   border-top: dotted 1px gray;
   /* justify-content: center; */
-  box-sizing: borderーbox;
+  /* box-sizing: borderーbox; */
+  padding: 0.5rem;
+}
+@media screen and (max-width: 500px) {
+  .skill-item {
+    flex-direction: column;
+  }
 }
 
-h5 {
+
+/* h5 {
   text-align: left;
   margin: 0;
   margin-left: 5px;
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
+} */
 
+.word-break {
+  word-break: break-all;
 }
 
 nav ul {
@@ -113,23 +139,38 @@ nav ul li a:hover {
   padding: 120px;
 } */
 
-.container h1 {
+.title {
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px; */
+}
+
+.profile-wrap {
+  background-color: beige;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+  padding: 1rem;
 }
 
 .profileImage {
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin-bottom: 15px;
 }
 
 .skill-thema {
+  /* display: inline-block; */
   /* object-fit: contain; */
-  width: 100px;
+  /* display: block; */
+  /* text-align: center; */
+  width: 120px;
+  /* border: red solid 1px; */
 }
+
+/* Col>img {
+  display: block;
+} */
 
 .skill-img {
   object-fit: cover;
@@ -145,4 +186,9 @@ nav ul li a:hover {
   border-radius: 10%;
   border: solid 0.5px grey;
   background-color: #ffffff;
+}
+
+.img-wrap {
+  background-color: red;
+  padding: 0 0.5rem;
 }

@@ -30,8 +30,9 @@ const HomePage = () => {
         <div className=''>
           <p><strong className='strong-color'>出身地:</strong>福島県郡山市</p>
           <p><strong className='strong-color'>生年月日:</strong>1994年6月生まれ　<strong className='strong-color'>趣味:</strong>睡眠・映画鑑賞・音楽鑑賞など</p>
-          <p><strong className='strong-color'>職歴:</strong>家電量販店の販売員や、手芸キットメーカーの自社サイト更新担当を経験後、Webデザインの職業訓練を受講。現在はHTMLコーダー職に従事しています。</p>
-          <p>AWS Cloud Practitionerの資格取得を目指し学習中です。</p>
+          <p><strong className='strong-color'>職歴:</strong>家電量販店の販売員や、手芸キットメーカーの自社サイト更新担当を経験後、Webデザインの職業訓練を受講。</p>
+          <p>現在はHTMLコーダー職に従事しています。</p>
+          <p>Webアプリケーションの作成学習と並行して、AWS Cloud Practitionerの資格取得を目指し学習中です。</p>
         </div>
       </div>
 

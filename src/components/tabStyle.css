@@ -12,18 +12,13 @@
 }
 .col-sm {
   display: flex;
-  /* display: inline-block; */
-  /* margin: 0; */
-  /* padding: 0; */
   justify-content: space-evenly;
   padding: 1rem;
 }
 
 .works-img {
   object-fit: contain;
-  height: 50px;
-  width: 50px;
-  /* border-radius: 10%; */
+  width: 25px;
 }
 
 .btn-light {
@@ -33,4 +28,9 @@
 .description {
   text-align: left;
   padding-top: 1rem;
+  line-height: 1.5;
+}
+
+.col_3 {
+  padding-left: 1rem;
 }

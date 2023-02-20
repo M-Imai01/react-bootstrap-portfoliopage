@@ -4,17 +4,9 @@ import Figure from 'react-bootstrap/Figure';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './tabStyle.css';
 import './modal_window.css';
-
-// import { Button } from 'react-bootstrap';
-
 import Col from 'react-bootstrap/Col';
 
-import photo1Image from "../Images/photo1.jpg";
-import photo2Image from "../Images/photo2.jpg";
-import photo3Image from "../Images/photo3.jpg";
-import photo4Image from "../Images/photo4.jpg";
 import GithubOctocatImage from "../Images/GithubOctocat.svg";
-
 
 import Design01Image from "../Images/Design01.png";
 import Design02Image from "../Images/Design02.png";
@@ -35,7 +27,6 @@ import Other01Image from "../Images/Other01.png";
 import Other001Image from "../Images/Other001.png";
 import Other02Image from "../Images/Other02.png";
 import Other002Image from "../Images/Other002.png";
-
 
 
 const BsTabs = () => {
@@ -218,8 +209,8 @@ const BsTabs = () => {
                     ・職業訓練校時代にTシャツのデザイン制作課題があり、Webデザインを学び始めてから感じ始めていた、デザインする事の楽しさを表現しようと思い制作しました。<br />
                     【コンセプト・ポイント】<br />
                     ・左右ともに共通して、カラフルな色合いにして楽しい雰囲気を出そうと思いました。<br />
-                    ・左のものでは色合いはレトロな色合いにし、誌面などの非デジタルイラスト感を表現しました。<br />
-                    ・右のものではドットが欠ける効果をつけて、デジタルデータ感=Webでのデザイン感を出しました。<br />
+                    ・左のデザインは色合いはレトロな色合いにし、誌面などの非デジタルイラスト感を表現しました。<br />
+                    ・右のデザインはドットが欠ける効果をつけて、デジタルデータ感（Web上でのデザイン）の雰囲気を出しました。<br />
                   </p>
                 </div>
                 <a href="#!" class="modal-close">×</a>

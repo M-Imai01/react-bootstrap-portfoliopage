@@ -227,14 +227,14 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-08"><Figure.Image src={Develop01Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>職業訓練校/サイト制作</Figure.Caption>
+                <Figure.Caption><span className='mark_div-page'>【Webサイト】</span>HTML/CSS/jQuery 架空の企業のサイト制作</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-08">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
-                  <h4>職業訓練校/サイト制作</h4>
+                  <h4>職業訓練校/架空の企業のサイト制作</h4>
                   <img src={Develop001Image} className="img-fluid" alt="" />
                   <p className="description">
                     【概要】<br />
@@ -246,10 +246,10 @@ const BsTabs = () => {
                     ・拙い作りでレスポンシブ化も実装できていませんが、思い出が多く残っているページなので、Herokuでデプロイし制作物の１つとして掲載しております。<br />
                   </p>
                   <span className='d-flex justify-content-around'>
-                    <a class="btn btn-light fw-bold" href="https://github.com/M-Imai01/okui_samplePage" role="button" target="_blank" rel="noopener noreferrer">
+                    <a class="btn btn-light fw-bold btn_querie-git" href="https://github.com/M-Imai01/okui_samplePage" role="button" target="_blank" rel="noopener noreferrer">
                       <img src={GithubOctocatImage} className="img-fluid works-img" alt="" />Go to Github
                     </a>
-                    <a class="btn btn-info fw-bold" href="https://okui-app.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">
+                    <a class="btn btn-info fw-bold btn_querie-git" href="https://okui-app.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">
                       Go to Website
                     </a>
                   </span>
@@ -261,7 +261,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-09"><Figure.Image src={Develop02Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>Python/flaskを使用したWebアプリ</Figure.Caption>
+                <Figure.Caption><span className='mark_div-app'>【Webアプリ】</span>Python/flask 商品情報登録サンプルアプリ</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-09">
@@ -291,7 +291,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-10"><Figure.Image src={Develop99Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>このポートフォリオページ</Figure.Caption>
+                <Figure.Caption><span className='mark_div-page'>【Webサイト】</span>React このポートフォリオページ</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-10">

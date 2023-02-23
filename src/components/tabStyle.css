@@ -34,3 +34,10 @@
 .col_3 {
   padding-left: 1rem;
 }
+
+.mark_div-page {
+  color: orange;
+}
+.mark_div-app {
+  color: hotpink;
+}

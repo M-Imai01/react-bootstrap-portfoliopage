@@ -36,11 +36,12 @@
   position: relative;
   width: 70%;
   max-width: 600px;
-  padding: 30px 30px 15px;
+  padding: 30px 30px 3rem;
   border-radius: 2px;
   background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, .6);
   vertical-align: middle
+
 }
 
 .modal-wrapper .modal-window .modal-content {
@@ -75,4 +76,18 @@
 
 .modal-wrapper .modal-close:hover {
   color: #2b2e38 !important
+}
+
+@media screen and (max-width: 500px) {
+  .btn_querie-git {
+    margin-right: 5px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn_querie-site {
+    margin-left: 5px;
+    margin-bottom: 1rem;
+  }
 }

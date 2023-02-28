@@ -15,6 +15,8 @@ import Design04Image from "../Images/Design04.png";
 import Design05Image from "../Images/Design05.png";
 import Design06Image from "../Images/Design06.png";
 import Design07Image from "../Images/Design07.png";
+import Design08Image from "../Images/Design08.png";
+
 
 import Develop01Image from "../Images/Develop01.png";
 import Develop001Image from "../Images/Develop001.png";
@@ -38,7 +40,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-01"><Figure.Image src={Design01Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>病院のチラシ制作</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ai'>【illustrator】</span>病院のチラシ制作</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-01">
@@ -63,7 +65,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-02"><Figure.Image src={Design02Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>薬局のチラシ制作①</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ai'>【illustrator】</span>薬局のチラシ制作①</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-02">
@@ -89,7 +91,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-03"><Figure.Image src={Design03Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>薬局のチラシ制作②</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ai'>【illustrator】</span>薬局のチラシ制作②</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-03">
@@ -118,7 +120,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-04"><Figure.Image src={Design04Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>ロゴの制作①</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ai'>【illustrator】</span>ロゴの制作①</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-04">
@@ -142,7 +144,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-05"><Figure.Image src={Design05Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>ロゴの制作②</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ai'>【illustrator】</span>ロゴの制作②</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-05">
@@ -166,7 +168,7 @@ const BsTabs = () => {
             <Col sm>
               <Figure>
                 <a href="#modal-06"><Figure.Image src={Design06Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>ロゴの制作③</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ps'>【Photoshop】</span>ロゴの制作③</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-06">
@@ -194,7 +196,7 @@ const BsTabs = () => {
             <Col sm={4} className="col_3">
               <Figure>
                 <a href="#modal-07"><Figure.Image src={Design07Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>Tシャツ制作課題/タイトル:I♥Design</Figure.Caption>
+                <Figure.Caption><span className='mark_design-ai'>【illustrator】</span>Tシャツ制作課題/タイトル:I♥Design</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-07">
@@ -216,6 +218,33 @@ const BsTabs = () => {
                 <a href="#!" class="modal-close">×</a>
               </div>
             </div>
+
+            <Col sm={4} className="col_3">
+              <Figure>
+                <a href="#modal-08"><Figure.Image src={Design08Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <Figure.Caption><span className='mark_design-xd'>【Adobe XD】</span>サイトトップページのプロトタイプ作成</Figure.Caption>
+              </Figure>
+            </Col>
+            <div class="modal-wrapper" id="modal-08">
+              <a href="#!" class="modal-overlay"></a>
+              <div class="modal-window">
+                <div class="modal-content">
+                  <h4>サイトトップページのプロトタイプ作成</h4>
+                  <img src={Design08Image} className="img-fluid" alt="" />
+                  <p className="description">
+                    【概要】<br />
+                    制作時間:約4時間<br />
+                    ・直近で勤めている会社の業務内で作成しました。<br />
+                    ・顧客先のサイト作成をWeb制作会社に依頼する際のプロトタイプデザインをAdobe XDで作成しました。<br />
+                    <a href='https://www.city.minamiashigara.kanagawa.dbsr.jp/'>（※完成したページ）</a><br />
+                    【コンセプト・ポイント】<br />
+                    ・社内にはある程度のテンプレートが用意されていたので、それに添いながらお客様の要望されるポイントをデザインに落とし込んでいきました。<br />
+                  </p>
+                </div>
+                <a href="#!" class="modal-close">×</a>
+              </div>
+            </div>
+
 
           </Row>
 
@@ -306,7 +335,7 @@ const BsTabs = () => {
                     ・今ご覧いただいているこのポートフォリオページは、React上でBootstrapを扱えるライブラリ「React-Bootstrap」を使用し作成しています。<br />
                     ・モダンな技術のReactを使って何か作成してみたいなと考えていた時に、自分のポートフォリオページを作るのに試してみようかと思い立ち、制作に至りました。<br />
                     【コンセプト・ポイント】<br />
-                    ・制作物をカテゴリーごとにタブで切り替えて表示させつつ、Modalウィンドウを同時に実装する点が非常に難航しました。最終的にはModalコンポーネントの使用は断念し、CSSのみでModalを実装しました。<br />
+                    ・制作物をカテゴリーごとにタブで切り替えて表示させつつ、Modalウィンドウを同時に実装する点が非常に難航しました。最終的にはCSSのみでModalを実装しました。<br />
                     ・全体的なレスポンシブ化は概ね上手くいったかと思いますが、制作物の画像が重く、表示に難点があることが今後の課題となります。<br />
                   </p>
                   <span>
@@ -326,10 +355,10 @@ const BsTabs = () => {
         {/* tab3 */}
         <Tab eventKey="tab-3" title="other">
           <Row>
-            <Col sm>
+            <Col sm={4} className="col_3">
               <Figure>
                 <a href="#modal-11"><img src={Other01Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>前職での動画制作①</Figure.Caption>
+                <Figure.Caption><span className='mark_design-pr'>【Adobe Premiere Pro】</span>前職での動画制作①</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-11">
@@ -356,10 +385,10 @@ const BsTabs = () => {
               </div>
             </div>
 
-            <Col sm>
+            <Col sm={4} className="col_3">
               <Figure>
                 <a href="#modal-12"><img src={Other02Image} className="img-fluid img-thumbnail" alt="" /></a>
-                <Figure.Caption>前職での動画制作②</Figure.Caption>
+                <Figure.Caption><span className='mark_design-pr'>【Adobe Premiere Pro】</span>前職での動画制作②</Figure.Caption>
               </Figure>
             </Col>
             <div class="modal-wrapper" id="modal-12">

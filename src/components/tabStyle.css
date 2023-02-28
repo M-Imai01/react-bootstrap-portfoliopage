@@ -36,8 +36,21 @@
 }
 
 .mark_div-page {
-  color: orange;
+  color: mediumturquoise;
 }
 .mark_div-app {
   color: hotpink;
+}
+
+.mark_design-ai {
+  color: darkorange;
+}
+.mark_design-ps {
+  color: dodgerblue;
+}
+.mark_design-xd {
+  color: fuchsia;
+}
+.mark_design-pr {
+  color: blueviolet;
 }

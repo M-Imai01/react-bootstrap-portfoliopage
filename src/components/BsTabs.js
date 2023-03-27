@@ -253,13 +253,14 @@ const BsTabs = () => {
         {/* タブ２ */}
         <Tab eventKey="tab-2" title="Dev">
           <Row>
+
             <Col sm>
               <Figure>
-                <a href="#modal-08"><Figure.Image src={Develop01Image} className="img-fluid img-thumbnail" alt="" /></a>
+                <a href="#modal-088"><Figure.Image src={Develop01Image} className="img-fluid img-thumbnail" alt="" /></a>
                 <Figure.Caption><span className='mark_div-page'>【Webサイト】</span>HTML/CSS/jQuery 架空の企業のサイト制作</Figure.Caption>
               </Figure>
             </Col>
-            <div class="modal-wrapper" id="modal-08">
+            <div class="modal-wrapper" id="modal-088">
               <a href="#!" class="modal-overlay"></a>
               <div class="modal-window">
                 <div class="modal-content">
